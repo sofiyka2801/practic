@@ -1,0 +1,348 @@
+
+ul.header_menu li{
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+}
+ul.header_icons li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(250, 186, 186);
+    margin-top: 15px;
+}
+.icons{
+    margin-right: 70px;
+}
+.text_hit-the-road{
+    padding: 40px;
+}
+.fire1{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.first_content{
+    border-bottom: 2px solid rgb(228, 226, 226);
+}
+.fire2{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.fire3{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.second_content{
+    border-bottom: 2px solid rgb(228, 226, 226);
+}
+.thirth_content{
+    border-bottom: 2px solid rgb(228, 226, 226);
+}
+.title_gallery{
+    text-align: center;
+    margin-top: 35px;
+}
+.gallery_cards{
+    
+    width: 100%;
+}
+.gallery_images{
+    width: 100%;
+    height: 400px;
+}
+.title_features{
+    text-align: center;
+    margin-top: 35px;
+}
+.registration{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.radios-registr{
+    margin-top: 20px;
+}
+.topic{
+    margin-top: 20px;
+}
+.message{
+    margin-top: 20px;
+}
+.radio-and-button{
+    margin-top: 20px;
+}
+.send-button-second{
+    width: 50%;
+}
+footer{
+    margin-top: 120px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(228, 226, 226);
+}
+.footer-icons{
+    border: 1px solid rgb(153, 153, 153);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(228, 226, 226);
+}
+.footer_end{
+    text-align: center;
+    margin-top: 20px;
+}
+.img-fluid{
+    height: 300px;
+    width: 100%;
+}
+.first-header-li{
+    list-style: none;
+}
+
+.first-features{
+    display: flex;
+    justify-content: center;
+}
+#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
+    max-width: 2000px;
+  }
+  #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
+    position: relative;
+    display: block;
+  }
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: rgb(221, 219, 219);
+    background: rgba(206, 196, 194, 0.2);
+    transition: opacity 0.25s ease;
+    text-align: center;
+  }
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+    font-size: 1.2rem;
+  }
+  #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+  }
+
+  @media (min-width: 1400px){
+    .fearures_icons{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border-bottom: 2px solid rgb(228, 226, 226);
+        border: 2px solid rgb(228, 226, 226);
+        border-top: none;
+        border-left: none;
+    }
+    .fearures_icons2{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border-bottom: 2px solid rgb(228, 226, 226);
+        border: 2px solid rgb(228, 226, 226);
+        border-top: none;
+    }
+    .fearures_icons3{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-top: none;
+        border-right: none;
+        
+    }
+    .fearures_icons4{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-bottom: none;
+        
+    }
+    .fearures_icons5{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-bottom: none;
+
+        
+    }
+    .fearures_icons6{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-bottom: none;
+        border-right: none;
+        
+    }
+
+  }
+
+  @media (min-width: 850px) and (max-width: 1400px){
+    .fearures_icons{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-top: none;
+        border-left: none;
+        
+        
+    }
+    .fearures_icons2{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-right: none;
+        border-top: none;
+        
+    }
+    .fearures_icons3{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        
+    }
+    .fearures_icons4{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-right: none;
+    }
+    .fearures_icons5{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-bottom:none ;
+
+    }
+    .fearures_icons6{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-right: none;
+        border-bottom:none ;
+    }
+
+  }
+
+@media (max-width: 600px){
+    .first-features{
+        flex-wrap: wrap;
+    }
+    .first_content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .thirth_content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 990px){
+    .first_content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .thirth_content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .first-features{
+        flex-wrap: wrap;
+    }
+    .li-menu-none{
+        display: none;
+    }
+    .fearures_icons{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-right: none;
+        
+        
+    }
+    .fearures_icons2{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-right: none;
+        
+    }
+    .fearures_icons3{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-right: none;
+        
+    }
+    .fearures_icons4{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-right: none;
+        border-left: none;
+    }
+    .fearures_icons5{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-right: none;
+        
+
+    }
+    .fearures_icons6{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-right: none;
+    }
+    .navs-icons{
+        display: none;
+    }
+}
